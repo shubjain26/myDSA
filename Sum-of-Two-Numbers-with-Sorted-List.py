@@ -1,7 +1,7 @@
 ## link: https://binarysearch.com/problems/Sum-of-Two-Numbers-with-Sorted-List
 ## Difficulty: Easy
 ## First Attempt: Yes
-## Topics:
+## Topics: Array, Two Pointer
 """
 Solution Summary: Use Two pointer approach
 """
