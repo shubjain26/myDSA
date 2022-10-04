@@ -1,3 +1,12 @@
+"""
+Ref: https://leetcode.com/problems/maximum-subarray/
+
+Kadane's Algorithm
+Important Question
+Iterate from left to right if the current sum is negative, discard the values till now and start from next element.
+No matter the value next element, negative sum will always reduce total value anyway.
+"""
+
 class Solution:
     def maxSubArray(self, nums: List[int]) -> int:
         max_sum = nums[0]
