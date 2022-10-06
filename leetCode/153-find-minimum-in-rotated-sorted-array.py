@@ -1,5 +1,5 @@
 """
-Ref: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/submissions/
+Ref: https://leetcode.com/problems/find-minimum-in-rotated-sorted-array
 
 - Important Question
 - Binary Search
