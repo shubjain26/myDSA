@@ -8,7 +8,7 @@ Space Complexity : O(1)
 
 Approach: 
     - Sort the array.
-    - Select one element and solve for two elements using two sum.
+    - Select one element and solve for two elements using two sum using two pointer.
 """
 
 class Solution:
