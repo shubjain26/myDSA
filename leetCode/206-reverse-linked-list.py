@@ -3,6 +3,8 @@ Ref: https://leetcode.com/problems/reverse-linked-list/
 
 Difficulty: Easy
 
+Topic: Linked List, Recursion
+
 Time Complexity: O(n)
 Space Complexity: O(1)
 
