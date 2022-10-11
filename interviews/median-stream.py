@@ -3,7 +3,7 @@ Problem Statement:
 Given a stream of integers return median at any time.
 
 Company: Bosch
-Date: 11 Oct 2022
+Date: 11-Oct-2022
 
 Time Complexity: 
     Insertion: O(Log(n))

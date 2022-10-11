@@ -2,6 +2,8 @@
 Problem Statement: Given a fractional number
 find whether it results into a non repeating number
 
+Company: Bosch
+Date: 11-Oct-2022
 
 Approach:
     Check if numerator is completely divisible by denominator
