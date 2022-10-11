@@ -15,6 +15,8 @@ Approach:
     Maintain a sorted list. 
     Apply binary search for insetion of element
 
+Difficulty: Medium
+Topic: Binary Search
 """
 
 
@@ -48,16 +50,15 @@ class MedianStream:
         if len(self.list) == 0:
             return 0
 
-        mid = int(len(self.list)/2)
+        mid = int(len(self.list) / 2)
         print("mid: ", mid)
         if len(self.list) % 2 == 0:
-            return (self.list[mid-1] + self.list[mid])/2
+            return (self.list[mid - 1] + self.list[mid]) / 2
         else:
             return self.list[mid]
 
     def find_index(self, num):
-        """ Finds the index where element needs to be inserted
-        """
+        """Finds the index where element needs to be inserted"""
         if num > self.list[-1]:
             return len(self.list)
 
@@ -70,10 +71,10 @@ class MedianStream:
         #         return i+1
 
         ## Binary Search O(log(n))
-        l, r = 0, len(self.list)-1
+        l, r = 0, len(self.list) - 1
         while l <= r:
-            mid = int((l + r)/2)
-            if num >= self.list[mid] and num < self.list[mid+1]:
+            mid = int((l + r) / 2)
+            if num >= self.list[mid] and num < self.list[mid + 1]:
                 return mid + 1
             else:
                 if num > self.list[mid]:

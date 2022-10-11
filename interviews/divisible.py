@@ -9,7 +9,8 @@ Approach:
     keep storing the remainder, if the remainder repeats then it is not completely divisible
     multiply numerator by 10 if numerator is less than denominator
 
-
+Difficulty: Easy
+Topic: Hash map
 """
 
 
